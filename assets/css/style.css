@@ -590,16 +590,19 @@ section {
   color: var(--text-primary-light);
 }
 .portfolio .portfolio-wrap li {
-  display: inline;
+  display: block;
   border-radius: 10px;
   background-color: var(--primary-darkest);
   padding: 5px 15px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  float: left
 }
 .portfolio .portfolio-wrap ul {
   list-style: none;
   padding-left: 0;
-  color: var(--text-primary-light)
+  color: var(--text-primary-light);
+  overflow: hidden,
 }
 .portfolio img {
   margin-bottom: 10px;
@@ -616,13 +619,17 @@ section {
   top: 0;
   bottom: 0;
   overflow-y: auto;
+  font-size: 0;
+}
+.portfolio-details-lightbox{
+  background-color: #18d26e;
 }
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 .portfolio-details .portfolio-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1064,6 +1071,7 @@ section {
   width: 300px;
   z-index: 9999;
   background: #040b14;
+  vertical-align: top
 }
 #footer .copyright {
   text-align: center;
