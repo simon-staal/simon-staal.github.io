@@ -638,6 +638,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding-top: 45px;
+  display:flex; flex-direction: column; justify-content: center;
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
