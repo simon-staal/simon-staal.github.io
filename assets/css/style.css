@@ -606,7 +606,9 @@ section {
 }
 .portfolio img {
   margin-bottom: 10px;
+
 }
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -620,18 +622,18 @@ section {
   bottom: 0;
   overflow-y: auto;
   font-size: 0;
-}
-.portfolio-details-lightbox{
-  background-color: #18d26e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .portfolio-details .container {
   padding-top: 20px;
   padding-bottom: 40px;
 }
 .portfolio-details .portfolio-title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .portfolio-details .portfolio-info {
@@ -640,19 +642,17 @@ section {
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .portfolio-details .portfolio-info ul {
-  list-style: none;
   padding: 0;
   font-size: 15px;
+  padding-left: 1rem;
 }
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
+
 .portfolio-details .portfolio-info p {
   font-size: 15px;
-  padding: 15px 0 0 0;
+  padding: 0px 0 0 0;
 }
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
@@ -700,14 +700,6 @@ section {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
 .portfolio-details .portfolio-description {
   padding-top: 30px;
 }
@@ -715,6 +707,26 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+.portfolio-details .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--background-lightest);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.portfolio-details .social-links a:hover {
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
