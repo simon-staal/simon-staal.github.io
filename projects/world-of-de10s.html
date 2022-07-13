@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>The Canary</title>
+  <title>World of DE-10s</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,21 +40,17 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <h2 class="portfolio-title">The Canary</h2>
+            <h2 class="portfolio-title">World of DE-10s</h2>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/the-canary/login.png" alt="">
+                  <img src="../assets/img/portfolio/world-of-de10s/start.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/the-canary/teams.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/the-canary/graphs.png" alt="">
+                  <img src="../assets/img/portfolio/world-of-de10s/game.png" alt="">
                 </div>
 
               </div>
@@ -66,15 +62,14 @@
           <div class="col-lg-6 portfolio-info">
             <h3>Project information</h3>
             <p>
-              The Canary is an IoT sensor network intended to be used by miners or any other industries which require human labour in confined spaces. Air quality, temperature and pressure data is measured by sensors which are aggregated by a raspberry pi, then sent to our server via encrypted MQTT. Users can interact with this system via our web-app, which allows the sensor sampling rate to be specified, data to be archived, and displays metrics in a digestible format.
+              Built an online, 1v1 tank game with a team of 6, involving an IoT system where 2 FPGAs, acting as controllers, are connected to 2 PCs which act as nodes. These nodes communicate with a TCP server hosted on an AWS EC2 instance. This instance handles communication between the player nodes and a 3rd PC which runs the game in unity, allowing for real-time gameplay from anywhere in the world.
             </p>
             <p>
-              I was involved in designing and deploying the system architecture, which included provisioning the AWS instance hosting our components, encrypting the network communication, ensuring both MQTT and HTTP ran over TLS, writing python libraries for the air quality and pressure sensors and assissting with the web application.
+              Personal role was focused on provisioning the AWS EC2 instance running the TCP server, which involved configuring the necessary settings, writing scripts to automate server environment initialisation and allowing the server to be booted up remotely via SSH.
             </p>
 
             <div class="social-links">
-              <a href="https://github.com/simon-staal/TheCanary" class="github" target="_blank"><i class="bx bxl-github"></i></a>
-              <a href="https://kc31949.wixsite.com/the-canary" class="link-external" target="_blank"><i class="bx bx-link-external"></i></a>
+              <a href="https://github.com/simon-staal/World_of_DE10s" class="github" target="_blank"><i class="bx bxl-github"></i></a>
             </div>
           </div>
 

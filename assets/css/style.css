@@ -520,6 +520,7 @@ section {
   display: flex;
   align-items: center;
   padding: 10px;
+  border-radius: 0.25rem;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -532,6 +533,9 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+}
+.portfolio .portfolio-wrap img {
+  border-radius: 0.25rem;
 }
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
