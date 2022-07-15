@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>The Canary</title>
+  <title>Issie</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -40,48 +40,22 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <h2 class="portfolio-title">Debonair</h2>
-
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/debonair/group-pic.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/debonair/landing.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/debonair/ground-discovery.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/debonair/vision.png" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
+            <h2 class="portfolio-title">Issie</h2>
+              <img src="../assets/img/portfolio/issie/wire-routing.gif" alt="" width="100%">
           </div>
 
           <div class="col-lg-6 portfolio-info">
             <h3>Project information</h3>
-            <p style="margin-bottom: 0.2rem !important;">
-              Worked in a team of 6 to build a fully integrated rover system capable of exploring environments, identifying and navigating around obstacles, record and send data and respond to user input. My responsibilities included:
+            <p>
+              <b>I</b>nteractive <b>S</b>chematic <b>S</b>imulator and <b>I</b>ntegrated <b>E</b>ditor (ISSIE) is an application for digital circuit design and simulation. Worked in a team of 6 to rewrite and upgrade the DrawBlock, which is the module responsible for rendering the schematics the user interacts with. Our work was selected as the highest quality from the 9 teams who completed this project, and was merged into the main ISSIE codebase.
             </p>
-            <ul>
-              <li>Designing the entire system architecture, setting up an AWS EC2 instance to host the components for our system.</li>
-              <li>Developing the back-end of the web app to handle requests from the front-end securely, communicating between the user and the rover.</li>
-              <li>Writing a Node.js pathfinding module in C++, allowing for complex pathfinding in micro-seconds of processing time.</li>
-              <li>Programming an ESP32 micro-controller in C++ to communicate between the web-app and the other rover subsystems.</li>
-            </ul>
-
-            <div class="social-links" style="padding-left: 1rem;"> <!--Add padding to match bullet points-->
-              <a href="https://github.com/simon-staal/Debonair" class="github" target="_blank"><i class="bx bxl-github"></i></a>
-              <a href="https://youtu.be/QJuqwNQwGvM" class="link-external" target="_blank"><i class="bx bx-link-external"></i></a>
+            <p>
+              My role was focused on the logic for representing and routing wires between different symbols. Some notable improvements included re-implementing the existing wire type to reduce memory consumption by a factor of 4, and extending the routing logic work in any orientation possible.
+            </p>
+            
+            <div class="social-links">
+              <a href="https://github.com/simon-staal/ISSIE_DrawBlock" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+              <a href="https://tomcl.github.io/issie/" class="link-external" target="_blank"><i class="bx bx-link-external"></i></a>
             </div>
           </div>
 
