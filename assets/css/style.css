@@ -864,8 +864,10 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--primary);
 }
-.testimonial .swiper-slide {
-  background-color: #18d26e;
+.testimonials .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
