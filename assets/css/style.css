@@ -435,7 +435,7 @@ section {
   color: var(--text-primary-light);
 }
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 0 20px;
   margin-top: -2px;
   border-left: 2px solid var(--primary-dark);
   position: relative;
@@ -477,6 +477,14 @@ section {
   background: var(--primary-light);
   border: 2px solid var(--primary-dark);
 }
+.resume .resume-item ul li ul {
+  margin-top: 5px;
+}
+.resume .resume-item ul li ul li{
+  margin: 0;
+  padding-bottom: 5px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
